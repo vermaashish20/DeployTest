@@ -1,11 +1,8 @@
-import Hero from "./sections/Hero";
+import Home from './pages/Home'
 
 function App() {
-
-  
-
   return (
-    <Hero/>
+    <Home/>
   );
 }
 

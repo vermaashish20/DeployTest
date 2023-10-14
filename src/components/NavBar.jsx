@@ -3,7 +3,7 @@ import { AppBar,Stack,Box, Link, Toolbar, Typography } from '@mui/material'
 
 const NavBar = () => {
   return (  
-    <AppBar position='static'
+    <AppBar position='fixed'
     sx={{backgroundColor:'transparent'}} elevation={0}>
     <Stack direction='row'
      justifyContent='center'  alignItems='center'>
