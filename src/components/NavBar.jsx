@@ -10,7 +10,8 @@ const NavBar = () => {
       <Toolbar>
         <Stack direction='row' justifyContent='space-between' spacing={6} alignItems='center'>
         <Link href="#about" sx={{color:'white',textDecoration:'none'}}>About</Link>
-        <Typography variant='h4' fontWeight='bold' >LOGO</Typography>
+        <Link href='#home' sx={{color:'white',textDecoration:'none'}}>
+        <Typography variant='h4' fontWeight='bold' >LOGO</Typography></Link>
         <Link href='#projects' sx={{color:'white',textDecoration:'none'}} >Projects</Link> 
         </Stack>   
       </Toolbar>

@@ -5,7 +5,7 @@ import HeroImg from '../static/ashi.jpeg'
 import heroBg from '../static/hero_bg.png'
 const Hero = () => {
   return (
-    <Stack direction="column"
+    <Stack id="home" direction="column"
     sx={{backgroundImage:`url(${heroBg})`,backgroundAttachment:'fixed',height:'100vh',width:'100%'}}>
       <NavBar/>
 
@@ -25,7 +25,7 @@ const Hero = () => {
         <img src={HeroImg} 
          height='100%' width='auto' alt="hero"/>
       </Box>
-      <Typography variant='h2' sx={{color:'white',paddingTop:'140px',paddingX:'50px'}} fontWeight='bold'>About me</Typography>
+      <Typography id="about" variant='h2' sx={{color:'white',paddingTop:'140px',paddingX:'50px'}} fontWeight='bold'>About me</Typography>
     </Stack>
 
   )
