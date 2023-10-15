@@ -1,6 +1,6 @@
-import { Container,Stack,Box, Typography } from '@mui/material'
+import { Container,Stack,Box, Typography, Divider } from '@mui/material'
 import { Link } from 'react-router-dom'
-
+import AndroidIcon from '@mui/icons-material/Android';
 const About = () => {
   return (
     <>
@@ -28,19 +28,54 @@ const About = () => {
       </Stack>
 
       <Stack direction='column'
-      sx={{width:'30%'}}
+      sx={{width:'30%',paddingY:'20px',borderRight:'dashed white 2px'}}
       >
-        <Typography>Developing</Typography>   
+        <Typography fontSize={30} fontWeight='bold' sx={{color:'white',borderBottom:'solid white 2px'}}>Android Developement</Typography>   
+       
+        <Typography fontSize={23} sx={{color:'white' }}>JetPack Compose:Kotlin</Typography>
+        <Typography fontSize={23} sx={{color:'white' }}>Java</Typography>
+
+        <Typography fontSize={30} fontWeight='bold' sx={{color:'white',borderBottom:'solid white 2px',paddingTop:'10px'}}>Web Developement</Typography>   
+        <Typography fontSize={23} sx={{color:'white' }}>React</Typography>
+        <Typography fontSize={23} sx={{color:'white' }}>HTML</Typography>
+        <Typography fontSize={23} sx={{color:'white' }}>JavaScript</Typography>
+        <Typography fontSize={23} sx={{color:'white' }}>Tailwind</Typography>
+        <Typography fontSize={23} sx={{color:'white' }}>CSS</Typography>
+        <Typography fontSize={23} sx={{color:'white' }}>Django</Typography>
+
+        <Typography fontSize={30} fontWeight='bold' sx={{color:'white',borderBottom:'solid white 2px',paddingTop:'10px'}}>Others</Typography>   
+        <Typography fontSize={23} sx={{color:'white' }}>SQL</Typography>
+        <Typography fontSize={23} sx={{color:'white' }}>Firebase</Typography>
       </Stack>
+
+      <Stack direction='column'
+      sx={{width:'30%',paddingY:'20px',borderRight:'dashed white 2px'}}
+      >
+        
+        <Typography fontSize={35} fontWeight='bold' sx={{color:'yellow',paddingTop:'10px'}}>AIML</Typography>   
+        <Typography fontSize={28}  sx={{color:'white',width:'50%',borderBottom:'solid white 2px',paddingTop:'10px'}}>Data Science</Typography>   
+        <Typography fontSize={23} sx={{color:'white' }}>Python</Typography>
+        <Typography fontSize={23} sx={{color:'white' }}>Numpy</Typography>
+        <Typography fontSize={23} sx={{color:'white' }}>Pandas</Typography>
+        <Typography fontSize={23} sx={{color:'white' }}>Matplotlib & Seaborn</Typography>
+
+        <Typography fontSize={28}  sx={{color:'white',borderBottom:'solid white 2px',paddingTop:'10px'}}>AI & ML</Typography>   
+        <Typography fontSize={23} sx={{color:'white' }}>Scikit Learn</Typography>
+        <Typography fontSize={23} sx={{color:'white' }}>TensorFlow</Typography>
+        <Typography fontSize={23} sx={{color:'white' }}>PyTorch</Typography>
+      </Stack>
+
+
       <Stack direction='column'
       sx={{width:'30%'}}
       >
-        <Typography>AIML</Typography>   
-      </Stack>
-      <Stack direction='column'
-      sx={{width:'30%'}}
-      >
-        <Typography>Hacking</Typography>   
+        <Typography fontSize={35} fontWeight='bold' sx={{color:'white',paddingTop:'10px'}}>Hacking</Typography>   
+        <Typography fontSize={23} sx={{color:'white' }}>Web Penetration</Typography>
+        <Typography fontSize={23} sx={{color:'white' }}>Android hacking</Typography>
+        <Typography fontSize={23} sx={{color:'white' }}>Networking</Typography>
+        <Typography fontSize={23} sx={{color:'white' }}>Social Engineering</Typography>
+        <Typography fontSize={23} sx={{color:'white' }}>Cloud Computing</Typography>
+
       </Stack>
 
     </Stack>
